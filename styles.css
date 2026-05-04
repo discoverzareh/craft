@@ -557,16 +557,20 @@ nav a {
   height: 100vh;
 }
 
-.contact-centered-text {
+.contact-centered-content {
   text-align: center;
+  z-index: 2; /* To ensure it's clickable above any overlays */
 }
 
-.contact-main-title {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 4rem; /* Big title */
-  color: var(--color-gold);
-  letter-spacing: 2px;
-  text-transform: uppercase;
+.contact-text-image {
+  max-width: 500px; /* Big enough to be easily readable */
+  width: 90vw; /* Responsive scaling */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.contact-text-image:hover {
+  transform: scale(1.05);
 }
 
 /* --- Explore Page --- */
