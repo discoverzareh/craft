@@ -53,7 +53,7 @@ html {
 #section-6 { background-image: url('./assets/images/process_bg.jpg'); }
 #section-7 { background-image: none; background-color: var(--color-primary-dark); }
 #section-8 { 
-  background: linear-gradient(rgba(92, 17, 17, 0.6), rgba(92, 17, 17, 0.6)), url('./assets/images/bgcontactpagefinal.jpg') no-repeat center center/cover;
+  background: url('./assets/images/contactfinal.png') no-repeat center center/cover;
 }
 
 /* Top Left Titles */
@@ -552,37 +552,6 @@ nav a {
   position: relative;
   width: 100vw;
   height: 100vh;
-}
-
-.contact-details-corner {
-  position: absolute;
-  bottom: 3rem;
-  right: 4rem;
-  color: var(--color-gold);
-  font-family: 'Montserrat', sans-serif;
-  text-align: right;
-  line-height: 1.5;
-  font-size: 16px;
-  z-index: 10;
-}
-
-.contact-us-title {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 2.5rem;
-  color: var(--color-gold);
-  margin-bottom: 0.5rem;
-  text-transform: uppercase;
-}
-
-.instagram-link {
-  color: var(--color-gold);
-  text-decoration: none;
-  font-weight: 600;
-  transition: opacity 0.3s ease;
-}
-
-.instagram-link:hover {
-  opacity: 0.7;
 }
 
 /* --- Explore Page --- */
