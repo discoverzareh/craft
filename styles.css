@@ -138,14 +138,10 @@ header {
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo-image {
-  height: 50px; /* Adjust this value if the logo needs to be bigger or smaller */
-  width: auto;
-  object-fit: contain;
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  color: var(--color-gold);
 }
 
 nav ul {
