@@ -558,7 +558,7 @@ nav a {
   position: absolute;
   bottom: 3rem;
   right: 4rem;
-  color: #650705;
+  color: var(--color-primary-dark);
   font-family: 'Montserrat', sans-serif;
   text-align: right;
   line-height: 1.5;
@@ -569,13 +569,13 @@ nav a {
 .contact-us-title {
   font-family: 'Libre Baskerville', serif;
   font-size: 2.5rem;
-  color: #650705;
+  color: var(--color-primary-dark);
   margin-bottom: 0.5rem;
   text-transform: uppercase;
 }
 
 .instagram-link {
-  color: #650705;
+  color: var(--color-primary-dark);
   text-decoration: none;
   font-weight: 600;
   transition: opacity 0.3s ease;
