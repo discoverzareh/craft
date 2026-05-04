@@ -52,7 +52,9 @@ html {
 #section-5 { background-image: none; background-color: var(--color-primary-dark); }
 #section-6 { background-image: url('./assets/images/process_bg.jpg'); }
 #section-7 { background-image: none; background-color: var(--color-primary-dark); }
-#section-8 { background-image: none; background-color: var(--color-gold); }
+#section-8 { 
+  background: linear-gradient(rgba(92, 17, 17, 0.6), rgba(92, 17, 17, 0.6)), url('./assets/images/BG CONTATC PAGE.jpg') no-repeat center center/cover;
+}
 
 /* Top Left Titles */
 .section-title {
@@ -546,13 +548,26 @@ nav a {
 }
 
 /* --- Section 8: Contact --- */
-.contact-details {
+.contact-section {
+  position: relative;
+}
+
+.contact-details-corner {
   position: absolute;
-  top: 12rem;
-  left: 4rem;
-  color: var(--color-text-dark);
-  font-size: 1.2rem;
-  line-height: 1.8;
+  bottom: 3rem;
+  right: 4rem;
+  color: var(--color-gold);
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.contact-us-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2rem;
+  color: var(--color-gold);
+  margin-bottom: 0.5rem;
 }
 
 /* --- Explore Page --- */
