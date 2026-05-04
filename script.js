@@ -32,9 +32,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const images = track.querySelectorAll('.carousel-image');
             const totalImages = images.length;
             
-            // We show 3 images at a time, scroll by 1 image (33.333%)
+            // Scroll by 3 images (a full page of 3)
             if (currentSlideIndex < totalImages - 3) {
-                currentSlideIndex++;
+                currentSlideIndex += 3;
             } else {
                 currentSlideIndex = 0; // Loop back to start
             }
