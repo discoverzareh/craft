@@ -550,22 +550,23 @@ nav a {
 /* --- Section 8: Contact --- */
 .contact-section {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
-.contact-details-corner {
-  position: absolute;
-  bottom: 3rem;
-  right: 4rem;
+.contact-centered-text {
+  text-align: center;
 }
 
-.contact-image {
-  max-width: 350px;
-  height: auto;
-  transition: transform 0.3s ease;
-}
-
-.contact-image:hover {
-  transform: scale(1.05);
+.contact-main-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 4rem; /* Big title */
+  color: var(--color-gold);
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 /* --- Explore Page --- */
