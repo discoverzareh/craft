@@ -53,7 +53,7 @@ html {
 #section-6 { background-image: url('./assets/images/process_bg.jpg'); }
 #section-7 { background-image: none; background-color: var(--color-primary-dark); }
 #section-8 { 
-  background: linear-gradient(rgba(92, 17, 17, 0.6), rgba(92, 17, 17, 0.6)), url('./assets/images/bgcontactpagefinal.jpg') no-repeat center center/cover;
+  background: url('./assets/images/contactfinal.png') no-repeat center center/cover;
 }
 
 /* Top Left Titles */
@@ -550,27 +550,8 @@ nav a {
 /* --- Section 8: Contact --- */
 .contact-section {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100vw;
   height: 100vh;
-}
-
-.contact-centered-content {
-  text-align: center;
-  z-index: 2; /* To ensure it's clickable above any overlays */
-}
-
-.contact-text-image {
-  max-width: 500px; /* Big enough to be easily readable */
-  width: 90vw; /* Responsive scaling */
-  height: auto;
-  transition: transform 0.3s ease;
-}
-
-.contact-text-image:hover {
-  transform: scale(1.05);
 }
 
 /* --- Explore Page --- */
