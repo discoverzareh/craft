@@ -554,6 +554,37 @@ nav a {
   height: 100vh;
 }
 
+.contact-details-corner {
+  position: absolute;
+  bottom: 3rem;
+  right: 4rem;
+  color: var(--color-gold);
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  line-height: 1.5;
+  font-size: 16px;
+  z-index: 10;
+}
+
+.contact-us-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2.5rem;
+  color: var(--color-gold);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.instagram-link {
+  color: var(--color-gold);
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.instagram-link:hover {
+  opacity: 0.7;
+}
+
 /* --- Explore Page --- */
 .explore-page {
   margin: 0;
